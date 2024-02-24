@@ -12102,6 +12102,13 @@ pre .code {
   display: block;
 }
 
+.header .header-content .header-title1 .down {
+  font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+}
+
 .header .header-content .header-subtitle {
   font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1300 - 300)));
   letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
