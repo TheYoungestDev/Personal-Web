@@ -1,0 +1,15 @@
+.hide-div{
+    display: none;
+}
+
+@media screen and (min-width:1024px){
+    .hide-div{
+        display: block;
+        margin-top: 3em;
+    }
+    
+}
+
+/* .all-here{
+    margin-bottom: 10em;
+} */
