@@ -1,9 +1,9 @@
 <?php
 $servername = "localhost";
 $port = 3306;
-$username = "devabdul_user";
-$password = "Modinat12345.";
-$database = "devabdul_data";
+$username = "smartle6_smartle6";
+$password = "Islam2020.1";
+$database = "smartle6_personalweb";
 $conn = new mysqli($servername, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
