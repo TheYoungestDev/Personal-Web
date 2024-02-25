@@ -24,7 +24,7 @@ if ($conn->query($sql) === TRUE) {
     $message .= "Name: $fullName\n";
     $message .= "Email: $email\n";
     $message .= "Message: $comment\n";
-    $headers = "From: $email\r\n";
+    $headers = "From: admin@devabdul.com.ng\r\n";
     $headers .= "Reply-To: iamabdullahitijani@gmail.com\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
