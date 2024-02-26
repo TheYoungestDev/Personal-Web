@@ -15,7 +15,7 @@ $comment = $_POST['comment'];
 
 // SQL query to insert data into the "message" table
 $sql = "INSERT INTO message (fullName, email, comment)
-        VALUES ('$name', '$email', '$comment')";
+        VALUES ('$fullName', '$email', '$comment')";
 
 if ($conn->query($sql) === TRUE) {
    
