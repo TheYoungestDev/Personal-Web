@@ -19,13 +19,13 @@ $sql = "INSERT INTO message (fullName, email, comment)
 
 if ($conn->query($sql) === TRUE) {
     $to = "admin@devabdul.com.ng,iamabdullahitijani@gmail.com";
-    $subject = "Website Message Received";
+    $subject = "Personal Website Message Received";
     $message = "Newsletter Details\n\n";
     $message .= "Name: $fullName\n";
     $message .= "Email: $email\n";
     $message .= "Message: $comment\n";
     $headers = "From: admin@devabdul.com.ng\r\n";
-    $headers .= "Reply-To: admin@devabduuul.com.ng,iamabdullahitijani@gmail.com admin@devabdul.com.ng\r\n";
+    $headers .= "Reply-To:iamabdullahitijani@gmail.com, admin@devabdul.com.ng\r\n";
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
