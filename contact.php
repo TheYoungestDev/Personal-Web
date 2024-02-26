@@ -9,7 +9,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$name = $_POST['fullName'];
+$fullName = $_POST['fullName'];
 $email = $_POST['email'];
 $comment = $_POST['comment'];
 
@@ -26,7 +26,7 @@ $message .= "Name: $fullName\n";
 $message .= "Email: $email\n";
 $message .= "Message: $comment\n";
 $headers = "From: admin@devabdul.com.ng\r\n";
-$headers .= "Reply-To:iamabdullahitijani@gmail.com, admin@devabdul.com.ng\r\n";
+$headers .= "Reply-To:iamabdullahitijani@gmail.com,admin@devabdul.com.ng\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 //Send the mail
